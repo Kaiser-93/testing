@@ -7,6 +7,3 @@ def index(request):
 
 def about(request):
     return render(request,'pages/about.html')
-
-def 6uo(request):
-    return render(request,'pages/6uo.html')
