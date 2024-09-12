@@ -20,14 +20,14 @@
                       <label class="sr-only">Keywords</label>
                       <input
                         type="text"
-                        name="keywords"
+                        name="title"
                         class="form-control"
                         placeholder="Keyword (Bathrooms, ClubHouse, etc)"
                       />
                     </div>
   
                     <div class="col-md-4 mb-3">
-                      <label class="sr-only">street</label>
+                      <label class="sr-only">Title</label>
                       <input
                         type="text"
                         name="street"
@@ -38,7 +38,7 @@
   
                     <div class="col-md-4 mb-3">
                       <label class="sr-only">District</label>
-                      <select name="district" class="form-control">
+                      <select name="District" class="form-control">
                         <option selected="true" disabled="disabled">
                           District (All)
                         </option>
@@ -81,7 +81,7 @@
           </div>
         </div>
       </section>
-  
+       {% include 'partials/_alert.html' %}
       <!-- Listings -->
       <section id="listings" class="py-5">
         <div class="container">
